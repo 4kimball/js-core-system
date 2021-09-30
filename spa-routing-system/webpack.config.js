@@ -5,6 +5,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const { resolve } = require("path");
 
 module.exports = {
+  mode: "development",
   entry: {
     router: "./router.js",
     app: "./index.js",
@@ -17,8 +18,8 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      filename: "index.html",
-      template: "index.html",
+      filename: "index.html", // output file name
+      template: "index.html", // template file name
     }),
     new MiniCssExtractPlugin({ filename: "app.css" }),
     new CleanWebpackPlugin({
