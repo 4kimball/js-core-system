@@ -27,3 +27,8 @@ npm init -y
 npm install -D webpack webpack-cli
 ```
 
+
+
+### config를 통한 Build
+
+- `webpack.config.js` 를 통해 build
