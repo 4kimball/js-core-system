@@ -9,3 +9,8 @@ SPA(단일 페이지 어플리케이션)는 최초한 모든 리소스를 브라
 
 
 SPA를 구현하기 위해서는 `index.html` 파일에 Javascript, CSS, Image와 같은 리소스 파일들을 로드하여 페이지 이동 없이 특정영역에서 변경되는 부분만 새롭게 바인딩 될 수 있도록 한다.
+
+
+
+### :last_quarter_moon_with_face: Browser History VS Hash History
+
