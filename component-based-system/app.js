@@ -7,10 +7,11 @@ let state = {
 const render = () => {
   const { items } = state;
   $app.innerHTML = `
+  <button id="append">추가</button>
     <ul>
     ${items.map((item) => `<li>${item}</li>`).join("")}
     </ul>
-    <button id="append">추가</button>
+    
   `;
   document.querySelector("#append").addEventListener("click", () => {
     setState({ items: [...items, `itesm${items.length + 1}`] });
